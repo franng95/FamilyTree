@@ -22,6 +22,11 @@ python main.py
 - Birthday list for any month
 - Statistical analysis (average age at death, children per person)
 
+## Run Tests
+```bash
+python test_family_tree.py
+```
+
 ## Tech Stack
 
 - Python 3.x
@@ -30,16 +35,16 @@ python main.py
 
 ## Project Structure
 ```
-Person.py          # Core Person class and subclasses
-FamilyTree.py      # FamilyTree manager and BirthdayManager
-main.py            # Demo with sample family data (23 people, 3 generations)
-test_FamilyTree.py # Unit tests covering edge cases
+Person.py           # Core Person class and subclasses
+FamilyTree.py       # FamilyTree manager and BirthdayManager
+main.py             # Demo with sample family data (23 people, 3 generations)
+test_family_tree.py # Unit tests covering edge cases
 ```
 
 ## What I Learned
 
 - Designing class hierarchies and inheritance in Python
-- Managing bidirectional relationships (parent↔child, siblings)
+- Managing bidirectional relationships (parent-child, siblings)
 - Writing comprehensive unit tests for edge cases
 - Handling data validation and error cases
 - Working with dates and calculating statistics
@@ -52,8 +57,8 @@ Total Children: 10
 Average Children per Person: 0.43
 
 Upcoming Birthdays in May:
-- María (12/05/1970)
-- Lucía (18/05/2000)
+- Maria (12/05/1970)
+- Lucia (18/05/2000)
 - Manuel (10/05/1900)
 ```
 
